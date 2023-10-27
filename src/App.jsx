@@ -1,3 +1,4 @@
+import Analytics from "./scenes/Analytics";
 import Featured from "./scenes/Featured";
 import Hero from "./scenes/Hero";
 import MainNavbar from "./scenes/Navbar";
@@ -5,11 +6,12 @@ import MainNavbar from "./scenes/Navbar";
 function App() {
   return (
     <>
-      <div className=" bg-purple h-screen">
-        <div className=" container p-6 mx-auto">
+      <div className=" bg-purple min-h-screen">
+        <div className=" container p-6 mx-auto h-full">
           <MainNavbar />
           <Hero />
           <Featured />
+          <Analytics />
         </div>
       </div>
     </>
