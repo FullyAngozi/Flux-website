@@ -3,6 +3,7 @@ import Featured from "./scenes/Featured";
 import GetApp from "./scenes/GetApp";
 import Hero from "./scenes/Hero";
 import MainNavbar from "./scenes/Navbar";
+import Testimonial from "./scenes/Testimonial";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Featured />
           <Analytics />
           <GetApp />
+          <Testimonial />
         </div>
       </div>
     </>
