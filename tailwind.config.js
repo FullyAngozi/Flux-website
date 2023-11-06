@@ -7,7 +7,8 @@ export default {
         transparent: "transparent",
         current: "currentColor",
         purple: "#010643",
-        btnColor: "#8B8BDA"
+        btnColor: "#8B8BDA",
+        customcolor: "#2F2B7A"
       },
       fontFamily: {
         roboto: ['Roboto', 'sans'],
